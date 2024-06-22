@@ -1,0 +1,20 @@
+LCD:
+button clicked from webapp: phone number to be printed
+if(onclick) print on LCD
+
+GPS:
+intervals- send location every hour- laitiude and longitude on google maps
+SMS is sent using GMS module
+function where gps is sent regularly from gms through an SMS
+ 
+Heartbeat sensor:
+regular intervals heartbeat sent just like GPS
+heartbeat> some value warning message is sent to the owner using gsm.
+
+GSM:
+sms is sent using gsm module
+sms is sent every hour -info heartbeat and gps location tracking
+sms is sent as a warning when needed
+
+
+
